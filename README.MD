@@ -1,7 +1,7 @@
 http-echo-chart
 ---------------
 
-This Kubernetes manifests file/ helm chart deploys the Hashicorp `http-echo` docker image in kubernetes
+This Kubernetes helm chart deploys the Hashicorp `http-echo` docker image in kubernetes
 
 ### Pre-requisites
    
