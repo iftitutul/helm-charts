@@ -18,9 +18,8 @@ This Kubernetes helm chart deploys the Hashicorp `http-echo` docker image in kub
 - To install the chart with the release name `http-echo-app` in namespace `http-echo-ns`:
 
   ```
-  git clone https://github.com/iftitutul/devops-task-1.git
-  cd kubernetes/http-echo/
-  helm install http-echo helm-charts/ --namespace=http-echo --values helm-charts/values.yaml
+  git clone https://github.com/iftitutul/http-echo.git
+  helm install http-echo --namespace=http-echo --values helm-charts/values.yaml
   ```
 
 - Check the template
