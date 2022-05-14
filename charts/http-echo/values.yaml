@@ -42,7 +42,7 @@ deployment:
   annotations:
 
   # Replicas to be created
-  replicas: 1
+  replicas:
 
   # Image of the app container
   image: 
