@@ -94,7 +94,7 @@ deployment:
       cpu: 0.1
 
   # Args for primary contaner
-  args: ["-text= This is http-echo Server"]
+  args: ["-text= This is http-echo Server version 2"]
 
   # List of ports for the primary container
   ports:
