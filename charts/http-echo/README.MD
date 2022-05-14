@@ -24,11 +24,11 @@ This Kubernetes helm chart deploys the Hashicorp `http-echo` docker image in kub
 
 - Check the template
   
-  `helm template helm-charts --dry-run --debug`
+  `helm template http-echo --dry-run --debug`
 
 - Upgrade the Chart 
 
-  `helm upgrade http-echo helm-charts/ --namespace=http-echo --values helm-charts/values.yaml`
+  `helm upgrade http-echo http-echo/ --namespace=http-echo --values http-echo/values.yaml`
 
 - Uninstall the Chart
 
